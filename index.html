@@ -52,7 +52,7 @@
 
             <!-- logo Masjid -->
             <div class="absolute top-0 left-1/2 transform -translate-x-1/2 mt-5">
-                <a href="#" class="w-10 h-10 ">
+                <a href="/" class="w-10 h-10 ">
                     <div class="flex justify-center">
                         <img src="/src/assets/images/hero.png" alt="logo masjid" width="75" class="rounded-full">
                     </div>
@@ -64,15 +64,17 @@
 
             <!-- login -->
             <div class="absolute top-0 right-0 mr-10 mt-10">
-                <a href="#">Sign In</a>
+                <a href="src/pages/login.html">Sign In</a>
             </div>
         </div>
         <!-- menu -->
         <div class="absolute mt-32 left-1/2 transform -translate-x-1/2">
-            <a href="#" class="mr-3 pb-2 border-b-4 border-primary">Home</a>
-            <a href="src/pages/berita.html" class=" mr-3">Agenda</a>
-            <a href="#" class=" mr-3">Galeri</a>
-            <a href="#" class=" mr-3">Transaksi</a>
+            <a href="/"
+                class="mr-3 active:pb-2 pb-2 border-b-4 border-primary active:border-b-4 active:border-primary">Home</a>
+            <a href="src/pages/agenda.html" class=" mr-3 active:pb-2 active:border-b-4 active:border-primary">Agenda</a>
+            <a href="src/pages/galeri.html" class=" mr-3 active:pb-2 active:border-b-4 active:border-primary">Galeri</a>
+            <a href="src/pages/transaksi.html"
+                class=" mr-3 active:pb-2 active:border-b-4 active:border-primary">Transaksi</a>
             <a href="#" class=" mr-3">Tentang</a>
             <a href="#" class="mr-3">Lainnya</a>
         </div>
@@ -185,8 +187,9 @@
                 <h2 class="font-bold text-4xl mb-1 text-primary">Agenda</h2>
                 <hr class="border-4 border-slate-500 max-w-xl">
 
+                <!-- konten -->
                 <div>
-                    <a href="#" class="flex  max-w-xl">
+                    <a href="src/pages/agenda_detail.html" class="flex  max-w-xl">
                         <!-- image -->
                         <div class="w-1/2 flex ">
                             <div class="w-1/2 mt-14 mx-auto ">
@@ -214,7 +217,7 @@
                         </div>
                     </a>
 
-                    <a href="#" class="flex  max-w-xl">
+                    <a href="src/pages/agenda_detail_2.html" class="flex  max-w-xl">
                         <!-- image -->
                         <div class="w-1/2 flex ">
                             <div class="w-1/2 mt-14 mx-auto ">
@@ -243,7 +246,7 @@
                         </div>
                     </a>
 
-                    <a href="#" class="flex  max-w-xl">
+                    <a href="src/pages/agenda_detail_3.html" class="flex  max-w-xl">
                         <!-- image -->
                         <div class="w-1/2 flex ">
                             <div class="w-1/2 mt-14 mx-auto ">
@@ -467,27 +470,28 @@
     </section>
     <!-- geleri section end -->
 
-    <!-- footer -->
+    <!-- footer start-->
     <footer class="bg-slate-300 w-full h-96 pt-24 pb-12 relative">
         <div class="container ">
             <div class="flex">
-            <div class="w-1/2 font-bold text-secondary">
-                <h4>Masjid Istiqomah Bengkalis</h4>
-                <h5>Jl. Patimura</h5>
-                <p>selamat datang di aplikasi informasi masjid istiqomah kabupaten bengkalis</p>
+                <div class="w-1/2 font-bold text-secondary">
+                    <h4>Masjid Istiqomah Bengkalis</h4>
+                    <h5>Jl. Patimura</h5>
+                    <p>selamat datang di aplikasi informasi masjid istiqomah kabupaten bengkalis</p>
+                </div>
+
+                <div>
+                    <h5 class="font-bold text-5xl text-primary">Hubungi Kami</h5>
+                    <h5>Jl. patimura Kelurahan Damon Kecamatan Bengkalis Kabupaten Bengkalis Provinsi Riau</h5>
+                </div>
             </div>
 
-            <div>
-                <h5 class="font-bold text-5xl text-primary">Hubungi Kami</h5>
-                <h5>Jl. patimura Kelurahan Damon Kecamatan Bengkalis Kabupaten Bengkalis Provinsi Riau</h5>
-            </div>
-        </div>
-
-            <div class="absolute bottom-0 w-full pt-10 border-t border-slate-900">
+            <div class="absolute bottom-0 w-full pt-10 border-t bor border-slate-900 max-w-xl">
                 <div>Copyrights 2023 | BY on Firman Arobi</div>
             </div>
         </div>
     </footer>
+    <!-- footer end -->
 </body>
 
 </html>
