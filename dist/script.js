@@ -18,12 +18,3 @@ tentang.addEventListener('click', function() {
     tentang.classList.toggle('tentang-active');
     tentangMenu.classList.toggle('hidden');
 });
-
-//lainnya menu
-const lainnya =  document.querySelector('#lainnya');
-const lainnyaMenu =  document.querySelector('#lainnya-menu');
-
-lainnya.addEventListener('click', function() {
-    lainnya.classList.toggle('lainnya-active');
-    lainnyaMenu.classList.toggle('hidden');
-});
